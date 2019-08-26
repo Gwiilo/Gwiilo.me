@@ -1,14 +1,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://gwiilo.xyz/index.html</loc>
+		<loc>https://gwiilo.me/index.html</loc>
 	</url>
 	<url>
-		<loc>https://gwiilo.xyz/GWars.html</loc>
+		<loc>https://gwiilo.me/GWars.html</loc>
 	</url>
 	<url>
-		<loc>https://gwiilo.xyz/gwiilos_3D_alternate_pack.html</loc>
+		<loc>https://gwiilo.me/subtle_x32.html</loc>
 	</url>
 	<url>
-		<loc>https://gwiilo.xyz/subtle_x32.html</loc>
+		<loc>https://gwiilo.me/gwiilos_3D_alternate_pack.html</loc>
+	</url>
+	<url>
+		<loc>https://gwiilo.me/ResourcePack.me.html</loc>
 	</url>
 </urlset>
