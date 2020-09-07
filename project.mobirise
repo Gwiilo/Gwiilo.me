@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Gwiilo.me",
-    "currentPage": "GwiiloXYZ.html",
+    "currentPage": "page6.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.7",
     "siteFonts": [],
-    "uniqCompNum": 12,
+    "uniqCompNum": 13,
     "versionPublish": "4.10.15",
     "screenshot": "screenshot.png",
     "siteUrl": "https://gwiilo.me",
@@ -227,7 +227,7 @@
     "ResourcePack.me.html": {
       "settings": {
         "title": "ResourcePack.me",
-        "order": 5,
+        "order": 6,
         "meta_descr": "Download the ResourcePack.me official launcher"
       },
       "components": [
@@ -303,6 +303,49 @@
           "_sourceTheme": "mobirise-amp",
           "_cid": "rAn5d6xSDF",
           "_anchor": "header2-b",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "title": "Planets",
+        "order": 5,
+        "meta_descr": "Download the official version of Gwiilo.XYZ."
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "margin-bottom": "20px"
+            },
+            "amp-img": {
+              "width": "100%",
+              "text-align": "center",
+              "margin": "0 auto",
+              "max-width": "~'@{imageWidth}%'"
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Image Width\" name=\"imageWidth\" min=\"0\" max=\"100\" step=\"1\" value=\"100\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-lg-8\">\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Planets</h1>\n                <h3 class=\"mbr-fonts-style align-center\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-5\">\n                    Download the latest TEST VERSION of my little planets game which I'm currently working on!<br></h3>\n                <div class=\"mbr-text align-center\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod at id fugiat natus a voluptas eveniet officia iure nihil nostrum ad, modi ipsam, dicta ullam accusamus, voluptate aspernatur. Accusamus, aliquid?\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"assets\\files\\Planets v0.1.zip\" data-app-placeholder=\"Type Text\" target=\"_blank\">DOWNLOAD</a>\n                    <a class=\"btn btn-md btn-warning\" href=\"https://www.planetminecraft.com/texture_pack/gwiilo-xyz-coming-soon/\" data-app-placeholder=\"Type Text\" target=\"_blank\">LEARN MORE</a> <a class=\"btn btn-md btn-success\" href=\"https://discord.gg/nDAebK9\" data-app-placeholder=\"Type Text\" target=\"_blank\">DISCORD</a></div>\n                <amp-img src=\"@PROJECT_PATH@/assets/images/2019-08-27-18.13.14-1462x782.png\" alt=\"Mobirise\" width=\"731\" height=\"391\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/2019-08-27-18.13.14-1462x782.png\" alt=\"Mobirise\" title>\n                </amp-img>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "s9WjIhXLpj",
+          "_anchor": "header2-c",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
